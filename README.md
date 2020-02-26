@@ -1,6 +1,10 @@
 # DollarCounter
 This small web app uses **Onsen UI** to display how much money per second is being made
 
+## Prerequisite
+
+Installing Onsen UI https://onsen.io/
+
 ## Languages used
 HTML, CSS, Javascript
 
