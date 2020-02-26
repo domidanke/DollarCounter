@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+    <ons-page>
+        <div id="wageInput">
+          <p>
+            <ons-input id="wage" type="number" max="9999" modifier="underbar" placeholder="Wage per hour" value=""></ons-input>
+          </p>
+          <p id="startButton">
+            <ons-button id="start_btn" onclick="startProcess()">Start</ons-button>
+          </p>
+        </div>
+        <div id="calculationBox">
+            <p id="startTimeBox">
+                <input id="startTime" type="time" step="1" value="" readonly>
+            </p>
+            <p id="currentTimeBox">
+                <input id="currentTime" type="time" step="1" value="" readonly>
+            </p>
+            <input id="currentMoney" type="number" value="0" readonly>
+            <p id="timePassedBox">
+                <input id="timePassed" type="time" step="1" value="00:00:00" readonly>
+            </p>
+            <p id="endButton">
+                <ons-button id="end_btn" disabled onclick="endProcess()">End</ons-button>
+            </p>
+        </div>
+      </ons-page>
+  </ons-input>
+</body>
+</html>

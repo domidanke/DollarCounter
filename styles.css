@@ -1,0 +1,36 @@
+#startButton{
+    margin-top: 30px;
+}
+
+#wageInput{
+    text-align: center;
+    margin-top: 50px;
+}
+
+input[type="number"]::placeholder {  
+    text-align: center; 
+} 
+
+#wage{
+    text-align: center;
+}
+
+#calculationBox{
+    text-align: center;
+}
+
+#startTimeBox{
+    margin-top: 20px;
+}
+
+#currentTimeBox{
+    margin-top: 20px;
+}
+
+#currentMoney{
+    
+    text-align: center;
+    width: 120px;
+    height: 80px;
+    font-size:25px;
+}
